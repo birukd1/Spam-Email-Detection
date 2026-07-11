@@ -5,7 +5,7 @@
 ![NLP](https://img.shields.io/badge/NLP-TF--IDF-green)
 ![Streamlit](https://img.shields.io/badge/UI-Streamlit-red)
 
-## 📌 Overview
+##  Overview
 
 The **Spam Email Detection System** is an AI-powered application that uses **Natural Language Processing (NLP)** and **Machine Learning** to automatically classify emails as:
 
@@ -18,7 +18,7 @@ The project includes a complete ML pipeline and an interactive web interface bui
 
 ---
 
-# 🎯 Project Objectives
+#  Project Objectives
 
 - Build an intelligent email spam classification system.
 - Apply NLP techniques to process email text.
@@ -28,17 +28,40 @@ The project includes a complete ML pipeline and an interactive web interface bui
 
 ---
 
-# 🚀 Features
+#  Features
 
-✅ Email text classification  
-✅ Natural Language Processing pipeline  
-✅ Text cleaning and preprocessing  
-✅ TF-IDF feature extraction  
-✅ Machine Learning classification  
-✅ Real-time prediction through Streamlit  
-✅ Confidence score display  
-✅ Clean and interactive user interface  
+ Email text classification  
+ Natural Language Processing pipeline  
+ Text cleaning and preprocessing  
+ TF-IDF feature extraction  
+ Machine Learning classification  
+ Real-time prediction through Streamlit  
+ Confidence score display  
+ Clean and interactive user interface  
 
 ---
 
 # 🏗️ System Architecture
+            User
+             |
+             ↓
+    Streamlit Web Application
+             |
+             ↓
+      Email Text Input
+             |
+             ↓
+    Text Preprocessing
+             |
+             ↓
+    TF-IDF Vectorization
+             |
+             ↓
+    Machine Learning Model
+             |
+             ↓
+   -------------------------
+   |                       |
+  Spam                    Ham
+   |                       |
+   ↓                       ↓
